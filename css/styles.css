@@ -120,6 +120,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-details .link:hover,
 .contact-details .link:focus {
@@ -170,6 +171,7 @@ ol {
   height: 56px;
   display: block;
   margin: 0 auto;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -187,6 +189,7 @@ ol {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-nav .link:hover,
@@ -326,6 +329,7 @@ img {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-list .team-box-icons {
@@ -361,6 +365,12 @@ img {
   width: calc((100% - 48px) / 3);
   position: relative;
   overflow: hidden;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .portfolio-box {
   padding: 32px 16px;
@@ -456,13 +466,11 @@ img {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icons-list .team-box-icons {
   fill: #f4f4fd;
 }
 .footer-icons-list-items:hover {
   background-color: #31d0aa;
-}
-.team-box-icons:hover {
-  fill: #f4f4fd;
 }
