@@ -235,7 +235,6 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  /* margin-top: 8px; */
 }
 .feauture-section-text {
   font-weight: 400;
@@ -404,9 +403,13 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-
 }
-
+.footer-logo {
+  margin-right: 120px;
+  margin-bottom: 16px;
+ 
+}
+.logo {  display: inline-block;}
 .footer-section {
   background-color: #2e2f42;
   padding-top: 100px;
@@ -431,10 +434,7 @@ img {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer-logo {
-  margin-bottom: 16px;
-  display: inline-block; margin-right: 120px;
-}
+
 .footer-title {
   display: flex;
   gap: 120px;
@@ -445,14 +445,14 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff; margin-bottom: 16px;
+  color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-icons-list {
   display: flex;
   justify-content: center;
   gap: 16px;
-  
 }
 .icons-link {
   display: flex;
@@ -467,8 +467,6 @@ img {
 .team-box-icons {
   fill: #f4f4fd;
 }
-.icons-link:hover{
-  background-color: #31d0aa;
-}
-
-
+.footer-icons-list-items .icons-link:hover,
+.footer-icons-list-items .icons-link:focus {
+  background-color: #31d0aa;}
