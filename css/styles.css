@@ -399,10 +399,10 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* .footer-container {
+.footer-section .container  {
   display: flex;
-  align-items: baseline;
-} */
+  
+}
 .footer-logo {
   margin-right: 120px;
   /* margin-bottom: 16px; */
