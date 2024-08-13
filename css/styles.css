@@ -400,7 +400,7 @@ img {
 }
 
 .footer-section .container  {
-  display: flex;
+  display: flex; align-items: baseline;
   
 }
 .footer-logo {
